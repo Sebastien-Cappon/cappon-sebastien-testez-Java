@@ -11,6 +11,7 @@ import org.apache.logging.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.Statement;
 import java.sql.Timestamp;
 
 public class TicketDAO {
@@ -86,4 +87,22 @@ public class TicketDAO {
         }
         return false;
     }
+
+    public int getNbTicket(String vehicleRegNumber) {
+		Connection con = null;
+		int nbTickets = 0;
+		try {
+			con = dataBaseConfig.getConnection();
+			Statement stmt = con.createStatement();
+			String query = "SELECT COUNT(*) AS nbTickets FROM ticket WHERE VEHICLE_REG_NUMBER = " + vehicleRegNumber;
+			ResultSet rs = stmt.executeQuery(query);
+			rs.next();
+			nbTickets = rs.getInt("nbTickets");
+		} catch (Exception ex) {
+			logger.error("Error counting number of tickets for this car", ex);
+		} finally {
+			dataBaseConfig.closeConnection(con);
+		}
+		return nbTickets;
+	}
 }
