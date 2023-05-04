@@ -48,16 +48,16 @@ public class ParkingService {
 
 <span class="pc bpc" id="L49" title="1 of 2 branches missed.">                if (ticketDAO.getNbTicket(vehicleRegNumber) &gt; 1) {</span>
 <span class="nc" id="L50">					System.out.println(</span>
-							&quot;Welcome back ! As a regular user of our car park, you will receive a 5% discount.&quot;);
+<span class="nc" id="L51">							&quot;Welcome back ! As a regular user of our car park, you will receive a 5% discount.&quot;);</span>
 				}
 
 <span class="fc" id="L54">                System.out.println(&quot;Generated Ticket and saved in DB&quot;);</span>
 <span class="fc" id="L55">                System.out.println(&quot;Please park your vehicle in spot number:&quot;+parkingSpot.getId());</span>
 <span class="fc" id="L56">                System.out.println(&quot;Recorded in-time for vehicle number:&quot;+vehicleRegNumber+&quot; is:&quot;+inTime);</span>
             }
-<span class="nc" id="L58">        }catch(Exception e){</span>
+<span class="pc" id="L58">        }catch(Exception e){</span>
 <span class="nc" id="L59">            logger.error(&quot;Unable to process incoming vehicle&quot;,e);</span>
-<span class="fc" id="L60">        }</span>
+        }
 <span class="fc" id="L61">    }</span>
 
     private String getVehichleRegNumber() throws Exception {
@@ -73,14 +73,14 @@ public class ParkingService {
 <span class="fc" id="L73">            parkingNumber = parkingSpotDAO.getNextAvailableSlot(parkingType);</span>
 <span class="pc bpc" id="L74" title="1 of 2 branches missed.">            if(parkingNumber &gt; 0){</span>
 <span class="fc" id="L75">                parkingSpot = new ParkingSpot(parkingNumber,parkingType, true);</span>
-            }else{
+<span class="fc" id="L76">            }else{</span>
 <span class="nc" id="L77">                throw new Exception(&quot;Error fetching parking number from DB. Parking slots might be full&quot;);</span>
             }
 <span class="nc" id="L79">        }catch(IllegalArgumentException ie){</span>
 <span class="nc" id="L80">            logger.error(&quot;Error parsing user input for type of vehicle&quot;, ie);</span>
 <span class="nc" id="L81">        }catch(Exception e){</span>
 <span class="nc" id="L82">            logger.error(&quot;Error fetching next available parking slot&quot;, e);</span>
-<span class="pc" id="L83">        }</span>
+        }
 <span class="fc" id="L84">        return parkingSpot;</span>
     }
 
@@ -110,9 +110,9 @@ public class ParkingService {
 <span class="fc" id="L110">            Date outTime = new Date();</span>
 <span class="fc" id="L111">            ticket.setOutTime(outTime);</span>
             
-<span class="pc bpc" id="L113" title="1 of 2 branches missed.">            if (ticketDAO.getNbTicket(vehicleRegNumber) &gt; 1) {</span>
-<span class="nc" id="L114">				fareCalculatorService.calculateFare(ticket, true);</span>
-			} else {
+<span class="fc bfc" id="L113" title="All 2 branches covered.">            if (ticketDAO.getNbTicket(vehicleRegNumber) &gt; 1) {</span>
+<span class="fc" id="L114">				fareCalculatorService.calculateFare(ticket, true);</span>
+<span class="fc" id="L115">			} else {</span>
 <span class="fc" id="L116">				fareCalculatorService.calculateFare(ticket, false);</span>
 			}
 
@@ -125,9 +125,9 @@ public class ParkingService {
 <span class="fc" id="L125">            }else{</span>
 <span class="nc" id="L126">                System.out.println(&quot;Unable to update ticket information. Error occurred&quot;);</span>
             }
-<span class="fc" id="L128">        }catch(Exception e){</span>
-<span class="fc" id="L129">            logger.error(&quot;Unable to process exiting vehicle&quot;,e);</span>
-<span class="fc" id="L130">        }</span>
+<span class="nc" id="L128">        }catch(Exception e){</span>
+<span class="nc" id="L129">            logger.error(&quot;Unable to process exiting vehicle&quot;,e);</span>
+        }
 <span class="fc" id="L131">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

@@ -35,9 +35,9 @@ import java.sql.Timestamp;
 <span class="fc" id="L35">            return ps.execute();</span>
 <span class="nc" id="L36">        }catch (Exception ex){</span>
 <span class="nc" id="L37">            logger.error(&quot;Error fetching next available slot&quot;,ex);</span>
-        }finally {
-<span class="pc" id="L39">            dataBaseConfig.closeConnection(con);</span>
-<span class="pc" id="L40">            return false;</span>
+<span class="nc" id="L38">        }finally {</span>
+<span class="fc" id="L39">            dataBaseConfig.closeConnection(con);</span>
+<span class="fc" id="L40">            return false;</span>
         }
     }
 
@@ -62,11 +62,11 @@ import java.sql.Timestamp;
             }
 <span class="fc" id="L63">            dataBaseConfig.closeResultSet(rs);</span>
 <span class="fc" id="L64">            dataBaseConfig.closePreparedStatement(ps);</span>
-<span class="nc" id="L65">        }catch (Exception ex){</span>
+<span class="pc" id="L65">        }catch (Exception ex){</span>
 <span class="nc" id="L66">            logger.error(&quot;Error fetching next available slot&quot;,ex);</span>
-        }finally {
-<span class="pc" id="L68">            dataBaseConfig.closeConnection(con);</span>
-<span class="pc" id="L69">            return ticket;</span>
+<span class="nc" id="L67">        }finally {</span>
+<span class="fc" id="L68">            dataBaseConfig.closeConnection(con);</span>
+<span class="fc" id="L69">            return ticket;</span>
         }
     }
 
@@ -98,7 +98,7 @@ import java.sql.Timestamp;
 <span class="nc" id="L98">			ResultSet rs = stmt.executeQuery(query);</span>
 <span class="nc" id="L99">			rs.next();</span>
 <span class="nc" id="L100">			nbTickets = rs.getInt(&quot;nbTickets&quot;);</span>
-<span class="fc" id="L101">		} catch (Exception ex) {</span>
+<span class="pc" id="L101">		} catch (Exception ex) {</span>
 <span class="fc" id="L102">			logger.error(&quot;Error counting number of tickets for this car&quot;, ex);</span>
 		} finally {
 <span class="fc" id="L104">			dataBaseConfig.closeConnection(con);</span>
