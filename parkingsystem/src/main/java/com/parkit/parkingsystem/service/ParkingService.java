@@ -110,12 +110,12 @@ public class ParkingService {
             Date outTime = new Date();
             ticket.setOutTime(outTime);
             
-            if (ticketDAO.getNbTicket(vehicleRegNumber) > 1) {
+			if (ticketDAO.getNbTicket(vehicleRegNumber) > 1) {
 				fareCalculatorService.calculateFare(ticket, true);
 			} else {
 				fareCalculatorService.calculateFare(ticket, false);
 			}
-
+            
             if(ticketDAO.updateTicket(ticket)) {
                 ParkingSpot parkingSpot = ticket.getParkingSpot();
                 parkingSpot.setAvailable(true);
