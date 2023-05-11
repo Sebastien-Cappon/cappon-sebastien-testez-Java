@@ -1,0 +1,25 @@
+# Created at 2023-05-11T04:26:21.491
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-05-11T04:26:22.981
+Unexpected IOException with stream: 2023-05-11 04:26:21 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-11T04:26:22.982
+Unexpected IOException with stream: 2023-05-11 04:26:22 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-11T04:26:22.983
+Unexpected IOException with stream: 2023-05-11 04:26:22 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-11T04:26:23.075
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+

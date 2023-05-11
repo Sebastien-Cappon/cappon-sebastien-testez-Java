@@ -10,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.Timestamp;
 
@@ -93,11 +92,13 @@ public class TicketDAO {
 		int nbTickets = 0;
 		try {
 			con = dataBaseConfig.getConnection();
-			Statement stmt = con.createStatement();
-			String query = "SELECT COUNT(*) AS nbTickets FROM ticket WHERE VEHICLE_REG_NUMBER = " + vehicleRegNumber;
-			ResultSet rs = stmt.executeQuery(query);
-			rs.next();
-			nbTickets = rs.getInt("nbTickets");
+			String query = "SELECT COUNT(*) AS nbTickets FROM ticket WHERE VEHICLE_REG_NUMBER = ?";
+			PreparedStatement ps = con.prepareStatement(query);
+			ps.setString(1, vehicleRegNumber);
+			ResultSet rs = ps.executeQuery();
+            if (rs.next()) {
+			    nbTickets = rs.getInt("nbTickets");
+            }
 		} catch (Exception ex) {
 			logger.error("Error counting number of tickets for this car", ex);
 		} finally {
