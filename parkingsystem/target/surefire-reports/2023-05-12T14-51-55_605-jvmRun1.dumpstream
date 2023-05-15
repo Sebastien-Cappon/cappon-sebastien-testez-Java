@@ -1,0 +1,912 @@
+# Created at 2023-05-12T14:52:17.805
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-05-12T14:52:17.832
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:17.833
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:17.834
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:17.891
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:17.892
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:17.943
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:17.943
+Unexpected IOException with stream: Welcome back ! As a regular user of our car park, you will receive a 5% discount.
+
+
+# Created at 2023-05-12T14:52:17.944
+Unexpected IOException with stream: Generated Ticket and saved in DB
+
+
+# Created at 2023-05-12T14:52:17.945
+Unexpected IOException with stream: Please park your vehicle in spot number:1
+
+
+# Created at 2023-05-12T14:52:17.946
+Unexpected IOException with stream: Recorded in-time for vehicle number:ABCDEF is:Fri May 12 14:52:17 GMT 2023
+
+
+# Created at 2023-05-12T14:52:17.947
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:17.982
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:17.983
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:17.984
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:17.985
+Unexpected IOException with stream: 2023-05-12 14:52:17 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.028
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.028
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:18.029
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.071
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:18.072
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.073
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.074
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.098
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.102
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.152
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.158
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.211
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.214
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.217
+Unexpected IOException with stream: Please pay the parking fare:1.4250292916666665
+
+
+# Created at 2023-05-12T14:52:18.218
+Unexpected IOException with stream: Recorded out-time for vehicle number:ABCDEF is:Fri May 12 14:52:18 GMT 2023
+
+
+# Created at 2023-05-12T14:52:18.222
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.275
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:18.276
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.277
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.472
+Unexpected IOException: 6,1,com.parkit.parkingsystem.integration.ParkingDataBaseIT,testParkingLotExitRecurringUser,null,null,null
+
+
+# Created at 2023-05-12T14:52:18.483
+Unexpected IOException: 5,1,com.parkit.parkingsystem.integration.ParkingDataBaseIT,testParkingLotExit,null,null,null
+
+
+# Created at 2023-05-12T14:52:18.487
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.650
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.658
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:18.658
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:18.659
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:18.661
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.688
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:18.689
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.692
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.695
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:18.696
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.772
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.773
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.774
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.836
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.840
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.884
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.885
+Unexpected IOException with stream: Generated Ticket and saved in DB
+
+
+# Created at 2023-05-12T14:52:18.885
+Unexpected IOException with stream: Please park your vehicle in spot number:1
+
+
+# Created at 2023-05-12T14:52:18.888
+Unexpected IOException with stream: Recorded in-time for vehicle number:ABCDEF is:Fri May 12 14:52:18 GMT 2023
+
+
+# Created at 2023-05-12T14:52:18.891
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:18.958
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:18.960
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:18.962
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:18.964
+Unexpected IOException with stream: 2023-05-12 14:52:18 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.022
+Unexpected IOException with stream: 2023-05-12 14:52:19 ERROR TicketDAO:84 - Error saving ticket info
+java.lang.NullPointerException: null
+	at com.parkit.parkingsystem.dao.TicketDAO.updateTicket(TicketDAO.java:79) ~[classes/:?]
+	at com.parkit.parkingsystem.integration.ParkingDataBaseIT.testParkingLotExit(ParkingDataBaseIT.java:87) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725) ~[junit-platform-commons-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultL
+
+# Created at 2023-05-12T14:52:19.023
+Unexpected IOException with stream: auncher.java:154) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+
+# Created at 2023-05-12T14:52:19.029
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.029
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:19.030
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.057
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:19.057
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.058
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.059
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.078
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.079
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.112
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.113
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.155
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.157
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.157
+Unexpected IOException with stream: Please pay the parking fare:0.0
+
+
+# Created at 2023-05-12T14:52:19.158
+Unexpected IOException with stream: Recorded out-time for vehicle number:ABCDEF is:Fri May 12 14:52:19 GMT 2023
+
+
+# Created at 2023-05-12T14:52:19.158
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.180
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:19.181
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.181
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.182
+Unexpected IOException with stream: 2023-05-12 14:52:19.0
+
+# Created at 2023-05-12T14:52:19.183
+Unexpected IOException with stream: 
+
+
+# Created at 2023-05-12T14:52:19.191
+Unexpected IOException: 6,1,com.parkit.parkingsystem.integration.ParkingDataBaseIT,testParkingLotExit,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.192
+Unexpected IOException: 5,1,com.parkit.parkingsystem.integration.ParkingDataBaseIT,testParkingACar,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.196
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.329
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.335
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:19.336
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:19.336
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:19.342
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.383
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:19.398
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.400
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.400
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:19.401
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.460
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.461
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.461
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.507
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.507
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.548
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.549
+Unexpected IOException with stream: Generated Ticket and saved in DB
+
+
+# Created at 2023-05-12T14:52:19.550
+Unexpected IOException with stream: Please park your vehicle in spot number:1
+
+
+# Created at 2023-05-12T14:52:19.551
+Unexpected IOException with stream: Recorded in-time for vehicle number:ABCDEF is:Fri May 12 14:52:19 GMT 2023
+
+
+# Created at 2023-05-12T14:52:19.553
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:14 - Create DB connection
+
+
+# Created at 2023-05-12T14:52:19.602
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:46 - Closing Result Set
+
+
+# Created at 2023-05-12T14:52:19.607
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:35 - Closing Prepared Statement
+
+
+# Created at 2023-05-12T14:52:19.608
+Unexpected IOException with stream: 2023-05-12 14:52:19 INFO  DataBaseTestConfig:24 - Closing DB connection
+
+
+# Created at 2023-05-12T14:52:19.622
+Unexpected IOException: 6,1,com.parkit.parkingsystem.integration.ParkingDataBaseIT,testParkingACar,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.626
+Unexpected IOException: 2,1,org.junit.platform.surefire.provider.JUnitPlatformProvider,com.parkit.parkingsystem.integration.ParkingDataBaseIT,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.632
+Unexpected IOException: 1,1,org.junit.platform.surefire.provider.JUnitPlatformProvider,com.parkit.parkingsystem.FareCalculatorServiceTest,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.638
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithDiscount,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.644
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithDiscount,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.647
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithLessThanOneHourParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.648
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithLessThanOneHourParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.649
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithLessThan30minutesParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.650
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithLessThan30minutesParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.651
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithDiscount,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.652
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithDiscount,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.653
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareUnkownType,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.658
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareUnkownType,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.662
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCar,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.663
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCar,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.664
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBike,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.665
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBike,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.667
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithLessThan30minutesParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.669
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithLessThan30minutesParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.670
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithMoreThanADayParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.671
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareCarWithMoreThanADayParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.671
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithLessThanOneHourParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.672
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithLessThanOneHourParkingTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.675
+Unexpected IOException: 5,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithFutureInTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.678
+Unexpected IOException: 6,1,com.parkit.parkingsystem.FareCalculatorServiceTest,calculateFareBikeWithFutureInTime,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.678
+Unexpected IOException: 2,1,org.junit.platform.surefire.provider.JUnitPlatformProvider,com.parkit.parkingsystem.FareCalculatorServiceTest,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.698
+Unexpected IOException: 1,1,org.junit.platform.surefire.provider.JUnitPlatformProvider,com.parkit.parkingsystem.ParkingServiceTest,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.702
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailableParkingNumberNotFound,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.871
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:19.872
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:19.872
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:19.886
+Unexpected IOException with stream: 2023-05-12 14:52:19 ERROR ParkingService:82 - Error fetching next available parking slot
+java.lang.Exception: Error fetching parking number from DB. Parking slots might be full
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:77) ~[classes/:?]
+	at com.parkit.parkingsystem.ParkingServiceTest.testGetNextParkingNumberIfAvailableParkingNumberNotFound(ParkingServiceTest.java:116) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725) ~[junit-platform-commons-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(De
+
+# Created at 2023-05-12T14:52:19.887
+Unexpected IOException with stream: faultLauncher.java:170) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+
+# Created at 2023-05-12T14:52:19.920
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailableParkingNumberNotFound,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.926
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,processExitingVehicleTestUnableUpdate,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.933
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:19.937
+Unexpected IOException with stream: Unable to update ticket information. Error occurred
+
+
+# Created at 2023-05-12T14:52:19.942
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,processExitingVehicleTestUnableUpdate,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.946
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailableParkingNumberWrongArgument,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.953
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:19.954
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:19.956
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:19.956
+Unexpected IOException with stream: Incorrect input provided
+
+
+# Created at 2023-05-12T14:52:19.958
+Unexpected IOException with stream: 2023-05-12 14:52:19 ERROR ParkingService:80 - Error parsing user input for type of vehicle
+java.lang.IllegalArgumentException: Entered input is invalid
+	at com.parkit.parkingsystem.service.ParkingService.getVehichleType(ParkingService.java:101) ~[classes/:?]
+	at com.parkit.parkingsystem.service.ParkingService.getNextParkingNumberIfAvailable(ParkingService.java:72) ~[classes/:?]
+	at com.parkit.parkingsystem.ParkingServiceTest.testGetNextParkingNumberIfAvailableParkingNumberWrongArgument(ParkingServiceTest.java:126) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:725) ~[junit-platform-commons-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:210) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1541) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-
+
+# Created at 2023-05-12T14:52:19.960
+Unexpected IOException with stream: engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:170) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:154) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:90) ~[junit-platform-launcher-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:132) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.junit.platform.surefire.provider.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:111) ~[junit-platform-surefire-provider-1.2.0.jar:1.2.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+
+# Created at 2023-05-12T14:52:19.961
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailableParkingNumberWrongArgument,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.962
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailable,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.968
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:19.970
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:19.970
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:19.972
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,testGetNextParkingNumberIfAvailable,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.974
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,processExitingVehicleTest,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.979
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:19.986
+Unexpected IOException with stream: Please pay the parking fare:1.4250035624999997
+
+
+# Created at 2023-05-12T14:52:19.987
+Unexpected IOException with stream: Recorded out-time for vehicle number:ABCDEF is:Fri May 12 14:52:19 GMT 2023
+
+
+# Created at 2023-05-12T14:52:19.992
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,processExitingVehicleTest,null,null,null
+
+
+# Created at 2023-05-12T14:52:19.998
+Unexpected IOException: 5,1,com.parkit.parkingsystem.ParkingServiceTest,testProcessIncomingVehicle,null,null,null
+
+
+# Created at 2023-05-12T14:52:20.002
+Unexpected IOException with stream: Please select vehicle type from menu
+
+
+# Created at 2023-05-12T14:52:20.002
+Unexpected IOException with stream: 1 CAR
+
+
+# Created at 2023-05-12T14:52:20.002
+Unexpected IOException with stream: 2 BIKE
+
+
+# Created at 2023-05-12T14:52:20.003
+Unexpected IOException with stream: Please type the vehicle registration number and press enter key
+
+
+# Created at 2023-05-12T14:52:20.004
+Unexpected IOException with stream: Welcome back ! As a regular user of our car park, you will receive a 5% discount.
+
+
+# Created at 2023-05-12T14:52:20.004
+Unexpected IOException with stream: Generated Ticket and saved in DB
+
+
+# Created at 2023-05-12T14:52:20.004
+Unexpected IOException with stream: Please park your vehicle in spot number:1
+
+
+# Created at 2023-05-12T14:52:20.005
+Unexpected IOException with stream: Recorded in-time for vehicle number:ABCDEF is:Fri May 12 14:52:20 GMT 2023
+
+
+# Created at 2023-05-12T14:52:20.006
+Unexpected IOException: 6,1,com.parkit.parkingsystem.ParkingServiceTest,testProcessIncomingVehicle,null,null,null
+
+
+# Created at 2023-05-12T14:52:20.007
+Unexpected IOException: 2,1,org.junit.platform.surefire.provider.JUnitPlatformProvider,com.parkit.parkingsystem.ParkingServiceTest,null,null,null
+
+

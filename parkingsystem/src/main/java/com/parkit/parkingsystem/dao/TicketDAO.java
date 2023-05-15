@@ -13,19 +13,30 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.Timestamp;
 
+/**
+ * Ticket class connected to the database. Contains 4 methods for retrieving, counting, saving and updating tickets.
+ *
+ * @author [NPC]Tek, Cappon Sébastien
+ * @version 1.2
+ */
 public class TicketDAO {
 
     private static final Logger logger = LogManager.getLogger("TicketDAO");
 
     public DataBaseConfig dataBaseConfig = new DataBaseConfig();
 
+    /**
+	 * Save a ticket in the database.
+	 *
+	 * @param ticket Ticket parameter that contains the data provided by the <code>processIncomingVehicle()</code> method.
+	 * @return Boolean that determines whether the prepared request has been executed or not.
+	 */
     public boolean saveTicket(Ticket ticket){
         Connection con = null;
         try {
             con = dataBaseConfig.getConnection();
             PreparedStatement ps = con.prepareStatement(DBConstants.SAVE_TICKET);
-            //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
-            //ps.setInt(1,ticket.getId());
+
             ps.setInt(1,ticket.getParkingSpot().getId());
             ps.setString(2, ticket.getVehicleRegNumber());
             ps.setDouble(3, ticket.getPrice());
@@ -36,17 +47,23 @@ public class TicketDAO {
             logger.error("Error fetching next available slot",ex);
         }finally {
             dataBaseConfig.closeConnection(con);
-            return false;
         }
+        return false;
     }
 
+    /**
+	 * Gets the parking ticket of a vehicle whose license plate number is given as input.
+	 *
+	 * @param vehicleRegNumber String parameter that contains license plate number.
+	 * @return Boolean that determines whether the prepared request has been executed or not.
+	 */
     public Ticket getTicket(String vehicleRegNumber) {
         Connection con = null;
         Ticket ticket = null;
         try {
             con = dataBaseConfig.getConnection();
             PreparedStatement ps = con.prepareStatement(DBConstants.GET_TICKET);
-            //ID, PARKING_NUMBER, VEHICLE_REG_NUMBER, PRICE, IN_TIME, OUT_TIME)
+
             ps.setString(1,vehicleRegNumber);
             ResultSet rs = ps.executeQuery();
             if(rs.next()){
@@ -65,10 +82,16 @@ public class TicketDAO {
             logger.error("Error fetching next available slot",ex);
         }finally {
             dataBaseConfig.closeConnection(con);
-            return ticket;
         }
+        return ticket;
     }
 
+    /**
+	 * Update a ticket from the database.
+	 *
+	 * @param ticket Ticket parameter that contains the new missing data provided by the <code>processExitingVehicle()</code> method.
+	 * @return Boolean that determines whether the prepared request has been executed or not.
+	 */
     public boolean updateTicket(Ticket ticket) {
         Connection con = null;
         try {
@@ -87,6 +110,12 @@ public class TicketDAO {
         return false;
     }
 
+    /**
+	 * Update a ticket from the database.
+	 *
+	 * @param vehicleRegNumber String parameter that contains license plate number.
+	 * @return Integer that determines the number of tickets already existing in the database for a given vehicle.
+	 */
     public int getNbTicket(String vehicleRegNumber) {
 		Connection con = null;
 		int nbTickets = 0;
