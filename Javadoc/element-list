@@ -1,0 +1,10 @@
+com.parkit.parkingsystem
+com.parkit.parkingsystem.config
+com.parkit.parkingsystem.constants
+com.parkit.parkingsystem.dao
+com.parkit.parkingsystem.integration
+com.parkit.parkingsystem.integration.config
+com.parkit.parkingsystem.integration.service
+com.parkit.parkingsystem.model
+com.parkit.parkingsystem.service
+com.parkit.parkingsystem.util
